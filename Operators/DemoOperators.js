@@ -4,6 +4,7 @@
 //3. Comparison operators(==,===,!=,>,<,>=,<=)
 //4. Logical operators(&&, || , !)
 //5. String operator(+)
+//6. Ternar operator(?:)
 
 //1. Arithemetic operators(+,-,*,/,%,++,_ _)
 
@@ -107,3 +108,24 @@ let str2="learning playwright"
 
 console.log(str1+str2)
 console.log("javascript"+123)
+
+
+//==================Ternary Operator======================================
+
+
+
+//  (condition)? truestement : falsestatement
+
+
+let age=20;
+
+// if(age>=18)
+// {
+//   console.log("Allowed for voting")
+// }
+// else{
+//   console.log("Not Allowed for Voting")
+// }
+
+
+console.log((age>=18)? "Allowed for voting" : "Not Allowed for Voting")
