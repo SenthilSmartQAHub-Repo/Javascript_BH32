@@ -112,8 +112,6 @@ console.log("javascript"+123)
 
 //==================Ternary Operator======================================
 
-
-
 //  (condition)? truestement : falsestatement
 
 
@@ -127,5 +125,3 @@ let age=20;
 //   console.log("Not Allowed for Voting")
 // }
 
-
-console.log((age>=18)? "Allowed for voting" : "Not Allowed for Voting")
