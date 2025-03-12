@@ -66,3 +66,65 @@ var array3=[ 10, 30, 20, 30, 20, 50 ]
 console.log(array3.slice(1,4+1))
 
 console.log(array3.slice(-5,-2))
+
+   
+ array3.splice(2,3,...[5,4,3,6])  //Remove and add values in array
+ console.log(array3)
+  //startingindex, howmany value to be deleted, insert the values in array
+
+
+console.log("Searching.................................................")
+
+
+
+var automation=["playwright","selenium","qtp","postMan"]
+
+
+console.log(automation.includes("selenium")) //true or false
+
+
+let a=automation.find(value => value==="selenium")  //respective array value else undefined
+
+console.log(a)
+
+let i=automation.findIndex(value=>value==="selenium")  // array index of value else -1
+
+console.log(i)
+
+
+console.log("Spread Operator(...)========================================= ")
+
+  let myarray=[20,10,5,6]
+
+  let copyarray=[...myarray];
+
+  copyarray[4]=30;
+
+  console.log("My actual array ",myarray)
+
+  console.log("My copy array " , copyarray)
+
+  console.log("map() function, filter() function, reduce() function======================")
+
+  var arrayvalue=[1,2,6,3,7,4,7,1,1] 
+
+  const evenumber=arrayvalue.filter(value=>value%2===1)
+
+  console.log(evenumber)
+
+
+  var arrayvalue1=[1,2,6,3,7,4]  
+
+  const doubled=arrayvalue1.map(value=>value+2)
+
+  console.log(doubled)
+
+  //sum of individual array 
+
+
+
+  var arrayvalue2=[1,2,6,3,7,4]  
+
+const totalvalue=arrayvalue2.reduce((totalvalue,value)=>totalvalue+value,0)
+
+console.log(totalvalue)
