@@ -128,3 +128,48 @@ console.log("Spread Operator(...)========================================= ")
 const totalvalue=arrayvalue2.reduce((totalvalue,value)=>totalvalue+value,0)
 
 console.log(totalvalue)
+
+
+//====================Come method=====================================================
+
+
+var mynumbers=[10,25,30,20,5,3] // ? 30
+
+   const output=mynumbers.some(value=>value>5)
+
+   console.log(output)
+
+
+   
+var mynumbers=[10,25,30,20,5,6] // ? 30
+
+const output1=mynumbers.every(value=>value>5)
+
+console.log(output1)
+
+
+var num=[2,5,3,6,7,3,1,3,1]
+   // 2,6 =>3,7
+    const value=num.filter(value=>value%2===0).map(value=>value+1).every(value=>value>5)
+
+    console.log(value)
+
+
+// var stumark=[60,40,60]
+             //allmark add 5
+             //get the total
+             //divide by 100
+
+  var stumark=[60,40,60]
+
+   var total= stumark.map(value=>value+5).reduce((total,value)=>total+value,0)
+
+   console.log(total/100)
+
+
+   var mark=[10,8,20,30,1,20,8]
+
+   console.log(mark.indexOf(20,3))
+console
+
+console.log(mark.lastIndexOf(8))
