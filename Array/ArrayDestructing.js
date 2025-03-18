@@ -50,4 +50,13 @@
     
 
 
+    let xx = 5;
+    let yy= 10;
+    
+    [xx, yy] = [yy, xx]; // Swaps the values
+    
+    console.log(xx); // 10
+    console.log(yy); // 5
+
+
 

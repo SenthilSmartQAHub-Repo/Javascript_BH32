@@ -5,7 +5,7 @@
 //2. Non-Primitive Data Types
 
 
-//Primitive Data Types
+//Primitive Data Types(Deep copy)
 
 //1. Number----> 8 bytes <= 2^53-1
 //2. String  ---->Every character -> 2 bytes
@@ -14,6 +14,13 @@
 //5. Null ----> 4 bytes --> absence of value
 //6. Symbol ----> 8 bytes --> unique value
 //7. BigInt ----> 8 bytes > 2^53-1
+
+//Non-Primitive Data Types(shallow copy)
+
+//    1. array
+//    2. object
+//    3.function
+
 
 
 let age=30;// Number
@@ -36,3 +43,4 @@ console.log(a)
 
 let b=null;//Null
 console.log(b)
+
