@@ -71,3 +71,8 @@ const arr1=[...setA].filter(value=>!setB.has(value))
 const arr2=[...setB].filter(value=>!setA.has(value))
 const Difference = new Set([...arr1,...arr2])
 console.log(Difference)
+
+
+const obj = {};
+obj[myname1] = "Alice";
+obj[age1] = 25;

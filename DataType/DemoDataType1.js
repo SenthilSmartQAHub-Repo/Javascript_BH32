@@ -19,6 +19,7 @@
 
 //    1. array
 //    2. object
+ //     3. new keyword
 //    3.function
 
 
