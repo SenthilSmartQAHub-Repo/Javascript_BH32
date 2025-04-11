@@ -21,7 +21,6 @@ if(typeof value2=="string")
     console.log(value2.toUpperCase())
 }
 
-
 function sum():void
 {
   console.log("sum method")
