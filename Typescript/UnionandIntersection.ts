@@ -34,3 +34,12 @@ let combine: personinfo & empinfo={
   salary:2000000
 
 }
+
+
+type Product {
+    productName: string;
+    price: number;
+    }
+    
+    // Step 2: Create a new object and cast it to Product
+    let product = new Object() as Product;
