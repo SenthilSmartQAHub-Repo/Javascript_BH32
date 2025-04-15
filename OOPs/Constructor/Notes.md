@@ -11,3 +11,10 @@ note:
 =====
 
 Inside class we can define only one constrctor(can be default constructor or parameter construtor)
+
+
+class Car
+
+brand
+model
+year
