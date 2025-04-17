@@ -4,7 +4,7 @@ class Emp{
 
 
 static company:string ="HCL" // static variable
-empId:number   //non-static variable or instance variable 
+ empId:number   //non-static variable or instance variable 
 empName:string  //non-static variable or instance variable 
 
 constructor(empId:number,empName:string)
