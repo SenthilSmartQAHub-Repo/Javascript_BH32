@@ -16,5 +16,5 @@ const obj112=new DemoTest2()
 const obj113=new DemoTest3()
 
 
-//  class {Emp, HR} Manager- defultl export
+//  class {Emp, HR} Manager- defultl
 //  Emp- getSalary , Hr-> GetSalaryupdate(), Manger- RequestSotware()
